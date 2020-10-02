@@ -1,0 +1,59 @@
+# Ignore binaries that might get built (files without extension on Linux and Mac OS)
+*
+!*.*
+
+### Go ###
+/vendor/
+/Godeps/
+*.dll
+*.dylib
+*.exe
+*.exe~
+*.out
+*.so
+*.test
+
+### macOS ###
+__MACOSX
+._*
+.apdisk
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.com.apple.timemachine.donotpresent
+.DS_Store
+.DocumentRevisions-V100
+.fseventsd
+.history
+.LSOverride
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+Icon
+Temporary Items
+
+### Visual Studio Code ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
+### Vim ###
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+[._]*.un~
+.netrwhist
+Session.vim
+Sessionx.vim
+
+### Windows ###
+[Dd]esktop.ini
+[Tt]humbs.db
+$RECYCLE.BIN/
+*.lnk

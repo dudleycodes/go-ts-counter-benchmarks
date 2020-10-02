@@ -1,0 +1,16 @@
+{
+    "files.encoding": "utf8",
+    "files.eol": "\n",
+    "[go]": {
+        "editor.rulers": [150],
+    },
+    "[markdown]": {
+        "editor.rulers": [100],
+    },
+    "cSpell.words": [
+        "benchmark",
+        "benchmark mutext",
+        "mutex",
+        "mutext"
+    ],
+}
